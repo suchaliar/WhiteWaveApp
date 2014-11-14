@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="45d94cdc6c6b493e84bdc4280fc53b4f" Name="Diagram1">
+        <EntityTypeShape EntityType="WhiteWaveDBModel.Account" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.AccountType" Width="1.5" PointX="3" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.CLOU" Width="1.5" PointX="7.5" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.ContactInformation" Width="1.5" PointX="10.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.Customer" Width="1.5" PointX="7.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.Description" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.EmailAddress" Width="1.5" PointX="8.25" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.Employee" Width="1.5" PointX="5.25" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.EmployeeType" Width="1.5" PointX="3" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.Event" Width="1.5" PointX="12.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.Invoice" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.Item" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.ItemType" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.Location" Width="1.5" PointX="10.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.MailingAddress" Width="1.5" PointX="8.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.MOU" Width="1.5" PointX="9.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.PhoneNumber" Width="1.5" PointX="8.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.PhoneNumberType" Width="1.5" PointX="6" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.Procedure" Width="1.5" PointX="11.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.Project" Width="1.5" PointX="7.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.SoftwareInstallation" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.Status" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.Supplier" Width="1.5" PointX="11.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.SupportAgreement" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.SupportEvent" Width="1.5" PointX="9.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhiteWaveDBModel.Ticket" Width="1.5" PointX="7.5" PointY="13" IsExpanded="true" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Account_AccountType" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Account_Description" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Account_SupportAgreement" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Customer_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Location_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Project_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Ticket_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_AccountType_Description" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_CLOU_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_ContactInformation_EmailAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_ContactInformation_MailingAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_ContactInformation_PhoneNumber" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Customer_Description" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Event_Description" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Location_Description" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Project_Description" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_SupportEvent_Description" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Ticket_Description" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Employee_EmployeeType" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Ticket_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Event_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Item_ItemType" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Location_MailingAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_PhoneNumber_PhoneNumberType" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Project_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_SupportEvent_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_Ticket_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="WhiteWaveDBModel.FK_SupportEvent_Ticket" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
